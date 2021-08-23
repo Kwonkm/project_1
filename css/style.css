@@ -23,3 +23,7 @@ h2 {
 .main-page__content {
   margin: 20px;
 }
+
+.hidden {
+  display: none;
+}

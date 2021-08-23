@@ -7,11 +7,11 @@
     <link
       rel="shortcut icon"
       sizes="16x16 32x32 64x64"
-      href="images/shortcuticon.png"
+      href="../images/shortcuticon.png"
     />
     <title>반려식물 TEST</title>
     <meta name="description" content="꽃, 식물 test" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
@@ -21,16 +21,23 @@
     <main>
       <div class="main-page">
         <div class="main-page__content">
-          <img src="images/homeimg.jpg" alt="수국" />
+          <img src="../images/homeimg.jpg" alt="수국" />
         </div>
-        <div class="main-page__content">
-          <button>TEST 시작하기</button>
-        </div>
+        <form class="hidden" id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="이름을 입력하세요"
+          />
+          <button>시작하기</button>
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
       </div>
     </main>
     <footer>
       <!-- 로고 제작 후 삽입 -->
     </footer>
-    <script src="app.js"></script>
+    <script src="../js/app.js"></script>
   </body>
 </html>
