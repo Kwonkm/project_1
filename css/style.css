@@ -1,0 +1,25 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-page__content {
+  margin: 20px;
+}
